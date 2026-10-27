@@ -58,9 +58,16 @@ Host files: commit to `media/<id>/` in this repo, push, URL = `https://raw.githu
 - Long video: providers `[{"network":"youtube"}]`, youtubeData {title, type:"video", privacy:"public", tags, category:"EDUCATION", madeForKids:false, isAiGeneratedContent:false}. Add `videoThumbnailUrl` only if the channel is verified (else omit).
 - Shorts: providers youtube + tiktok (+ instagram REEL once connected), youtubeData type "short", tiktokData {privacyOption:"PUBLIC_TO_EVERYONE", isAigc:true, title}.
 - Metricool copies media to static.metricool.com at scheduling time → after ALL posts of an item are scheduled, `git rm` the media and push.
-### 6b. Price Decoded → Zapier YouTube (`YouTubeV4CLIAPI`, action `upload_video`, connection = glovopromo4 / Price Decoded)
-- Inspect the action schema first (`inspect_zapier_actions`). Upload on the publish day (it publishes immediately unless the schema offers scheduling/privacy). Then set the thumbnail with `upload_video_thumbnail` if the channel is verified. Delete media from GitHub after success.
-- If Price Decoded ever gets added to Metricool, switch PD to 6a.
+### 6b. Price Decoded → Zapier YouTube (`YouTubeV4CLIAPI`)
+- Zapier YouTube connections (verified 27.10 with channels?mine=true):
+  - **Price Decoded** = connection_id `029408f4-f55a-85f0-bcf1-aa0acf68a877` (channel UCAvdyFFYSkZhXY12fYJd2lw)
+  - **Back Then** = connection_id `02a941d2-04c8-812a-b7ee-9e26aef629ba` (channel UCNh5AC5k6i_8TyXZxJhZ3ng)
+  ALWAYS pass `connection_id` explicitly — never rely on the default.
+- Upload: `execute_zapier_write_action` action `upload_video` with params {title, description, video:<raw GitHub URL>, thumbnail:<raw URL, only if channel verified>, privacy_status, tags:[...], category_id:"27" (Education), made_for_kids:"false", default_language:"en", default_audio_language:"en"}.
+  Try scheduling: privacy_status "private" + publish_at "<ISO datetime>". If YouTube rejects publish_at, upload on the publish day with privacy_status "public".
+- Raw YouTube Data API is available: GET via `execute_zapier_read_action` action `_zap_raw_request` {method:"GET", url:"https://www.googleapis.com/youtube/v3/...", querystring:{...}, fail_on_errors:"false"}; POST/PUT via `execute_zapier_write_action` same action. Use it for: listing uploads (playlistItems, playlistId = "UU" + channelId[2:]), videos.update (status.publishAt, snippet), analytics checks.
+- After a successful upload `git rm` the media and push. Record the videoId in state/queue.json.
+- Back Then long videos may also go through Zapier (connection above) if Metricool fails.
 - Instagram/TikTok for PD don't exist yet.
 
 ## 7. Bookkeeping (after every step)

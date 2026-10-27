@@ -1,13 +1,87 @@
 {
-  "updated": "2026-10-27T13:30:00+05:00",
-  "metricool_blog_id_backthen": "7680884",
-  "items": [
-    {"id": "bt01", "channel": "backthen", "kind": "long", "title": "What Did Medieval Peasants Actually Do All Day?", "status": "published", "published": "2026-10-17", "note": "uploaded manually"},
-    {"id": "bt02", "channel": "backthen", "kind": "long", "title": "What Did Romans Actually Eat for Breakfast?", "status": "published?", "note": "owner uploaded via Chrome on 2026-10-22 — verify on the channel; if missing, schedule from Desktop\\koz\\YOUTUBE_CLAUDE\\channels\\02_BackThen\\videos\\ep02_roman_breakfast\\video.mp4"},
-    {"id": "bt02-s1", "channel": "backthen", "kind": "short", "title": "Romans Put THIS Sauce on Everything", "status": "scheduled", "date": "2026-10-27T21:00:00+05:00", "metricool_id": 407467809, "networks": ["youtube", "tiktok"]},
-    {"id": "bt02-s2", "channel": "backthen", "kind": "short", "title": "The Roman Vomitorium Myth, Busted", "status": "scheduled", "date": "2026-10-28T21:00:00+05:00", "metricool_id": 407467973, "networks": ["youtube", "tiktok"]},
-    {"id": "bt02-s3", "channel": "backthen", "kind": "short", "title": "Romans Invented French Toast 2,000 Years Ago", "status": "scheduled", "date": "2026-10-29T21:00:00+05:00", "metricool_id": 407467983, "networks": ["youtube", "tiktok"]},
-    {"id": "pd01", "channel": "pricedecoded", "kind": "long", "title": "Car Insurance Prices Are Finally Falling. So Why Isn't Your Bill?", "status": "draft-in-studio", "note": "draft uploaded manually; owner must set category/schedule in Studio"},
-    {"id": "pd02", "channel": "pricedecoded", "kind": "long", "title": "How Costco Makes Money Selling $1.50 Hot Dogs", "status": "rendering", "note": "assets complete (c06-c08 are still-image placeholders); publish via Zapier once glovopromo4 is connected"}
-  ]
+ "updated": "2026-10-27T13:30:00+05:00",
+ "metricool_blog_id_backthen": "7680884",
+ "items": [
+  {
+   "id": "bt01",
+   "channel": "backthen",
+   "kind": "long",
+   "title": "What Did Medieval Peasants Actually Do All Day?",
+   "status": "published",
+   "published": "2026-10-17",
+   "note": "uploaded manually",
+   "youtube_id": "L1qMzjsLcgQ"
+  },
+  {
+   "id": "bt02",
+   "channel": "backthen",
+   "kind": "long",
+   "title": "What Did Romans Actually Eat for Breakfast?",
+   "status": "published",
+   "note": "owner uploaded via Chrome",
+   "published": "2026-10-22",
+   "youtube_id": "-AePk13321g"
+  },
+  {
+   "id": "bt02-s1",
+   "channel": "backthen",
+   "kind": "short",
+   "title": "Romans Put THIS Sauce on Everything",
+   "status": "scheduled",
+   "date": "2026-10-27T21:00:00+05:00",
+   "metricool_id": 407467809,
+   "networks": [
+    "youtube",
+    "tiktok"
+   ]
+  },
+  {
+   "id": "bt02-s2",
+   "channel": "backthen",
+   "kind": "short",
+   "title": "The Roman Vomitorium Myth, Busted",
+   "status": "scheduled",
+   "date": "2026-10-28T21:00:00+05:00",
+   "metricool_id": 407467973,
+   "networks": [
+    "youtube",
+    "tiktok"
+   ]
+  },
+  {
+   "id": "bt02-s3",
+   "channel": "backthen",
+   "kind": "short",
+   "title": "Romans Invented French Toast 2,000 Years Ago",
+   "status": "scheduled",
+   "date": "2026-10-29T21:00:00+05:00",
+   "metricool_id": 407467983,
+   "networks": [
+    "youtube",
+    "tiktok"
+   ]
+  },
+  {
+   "id": "pd01",
+   "channel": "pricedecoded",
+   "kind": "long",
+   "title": "Car Insurance Prices Are Finally Falling. So Why Isn't Your Bill?",
+   "status": "published",
+   "note": "public",
+   "published": "2026-10-16",
+   "youtube_id": "gkXdIW6M5jg"
+  },
+  {
+   "id": "pd02",
+   "channel": "pricedecoded",
+   "kind": "long",
+   "title": "How Costco Makes Money Selling $1.50 Hot Dogs",
+   "status": "rendering",
+   "note": "assets complete (c06-c08 are still-image placeholders); publish via Zapier once glovopromo4 is connected"
+  }
+ ],
+ "zapier_youtube_connection": {
+  "pricedecoded": "029408f4-f55a-85f0-bcf1-aa0acf68a877",
+  "backthen": "02a941d2-04c8-812a-b7ee-9e26aef629ba"
+ }
 }
