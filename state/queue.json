@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-27T13:30:00+05:00",
+ "updated": "2026-10-27T13:50:00+05:00",
  "metricool_blog_id_backthen": "7680884",
  "items": [
   {
@@ -76,8 +76,41 @@
    "channel": "pricedecoded",
    "kind": "long",
    "title": "How Costco Makes Money Selling $1.50 Hot Dogs",
-   "status": "rendering",
-   "note": "assets complete (c06-c08 are still-image placeholders); publish via Zapier once glovopromo4 is connected"
+   "status": "scheduled",
+   "note": "private+publishAt; custom thumbnail refused until channel phone-verified (thumbnail.jpg in episodes/pricedecoded/pd02)",
+   "date": "2026-10-29T21:00:00+05:00",
+   "youtube_id": "nX_Z50nUr2k",
+   "via": "zapier"
+  },
+  {
+   "id": "pd02-s1",
+   "channel": "pricedecoded",
+   "kind": "short",
+   "title": "Costco's $1.50 Hot Dog Hasn't Changed Since 1985. How?",
+   "status": "scheduled",
+   "date": "2026-10-28T23:00:00+05:00",
+   "youtube_id": "F3imBYBXDgg",
+   "via": "zapier"
+  },
+  {
+   "id": "pd02-s2",
+   "channel": "pricedecoded",
+   "kind": "short",
+   "title": "Costco's Real Product Isn't Food",
+   "status": "scheduled",
+   "date": "2026-10-30T23:00:00+05:00",
+   "youtube_id": "meVPjfu1tBQ",
+   "via": "zapier"
+  },
+  {
+   "id": "pd02-s3",
+   "channel": "pricedecoded",
+   "kind": "short",
+   "title": "Why You Keep Paying Costco $65 a Year",
+   "status": "scheduled",
+   "date": "2026-10-31T23:00:00+05:00",
+   "youtube_id": "6l2rufnRgdA",
+   "via": "zapier"
   }
  ],
  "zapier_youtube_connection": {
