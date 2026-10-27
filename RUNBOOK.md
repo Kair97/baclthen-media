@@ -36,6 +36,7 @@ Priority each run:
 - Also write `metadata.txt` (title ≤ 70 chars, description with `{CHAPTERS}` placeholder + sources, 12–15 tags) and `shorts.json` plan (3–4 Shorts of 20–58 s; each must work without context — strong first line).
 
 ## 4. Assets in Google Flow (laptop needed) — account dbatyr08 = `https://flow.google.com/u/1/`
+- If `episodes/<channel>/<id>/flow_prompts.md` exists, paste its messages as-is (TOM and style already substituted).
 - Open a NEW Flow project (button «Новый проект»). Flow now works through its side **agent chat**: put text into `[role=textbox][contenteditable=true]` with `document.execCommand('insertText',false,text)` and press **Return** (real key) to send.
 - Images: one message per ≤ 9 prompts: "Generate exactly one image for EACH of the following N prompts (Nano Banana 2.1, 16:9 …). Use each prompt exactly as written … append this style: …" Images cost 0 and need no approval.
 - Videos: one message listing [C01]…[C0n] prompts ("8-second video, Omni 1.1 Flash, 16:9, text-to-video"). The agent asks "Сгенерировать N видео за бонусы (12·N)?" → click the `.option-row` whose text is «Одобрить» via JS `.click()`. Max 4 clips/day (credit limit).
