@@ -1,0 +1,38 @@
+=== TITLE ===
+Why an Ambulance Ride Can Cost More Than a Plane Ticket
+
+(alt titles for A/B test: "Your Ambulance Bill Is Mostly Waiting Time" / "The $1,100 Ambulance Ride, Decoded")
+
+=== DESCRIPTION ===
+The average U.S. domestic plane ticket costs $445. The average ground ambulance bill for a privately insured patient was about $1,093 back in 2021, often for a ride of a few miles that you didn't choose. We decode where that money goes: out-of-network ambulances, the hidden cost of being ready 24/7, three different prices for the same ride, and the hole in the No Surprises Act. Plus what to do if a big ambulance bill lands in your mailbox.
+
+⏱ Chapters
+{CHAPTERS}
+
+📊 Sources (search these titles)
+• Bureau of Transportation Statistics, "Second Quarter 2026 Average Air Fare Increased 2.0% from First Quarter 2026" (Sept 29, 2026): $445 average domestic fare
+• Commonwealth Fund / Georgetown CHIR, "Consumers Still Face Surprise Bills for Ground Ambulances — States Are Trying to Protect Them" (Feb 18, 2026): $1,093 average bill (2021), ~3 million privately insured riders a year, 22 states with protections, state approaches (ND, UT, IL), 13 of 22 cover non-emergency rides
+• Elevance Health Public Policy Institute, "Emergency Ground Ambulance Costs: Trends and Policy Implications" (July 2026): 44-51% of rides out of network 2012-2025, state variation, charges +30% above medical inflation, in-network payments ~161% of Medicare, charge-to-Medicare ratios
+• MedPAC, June 2026 Report to the Congress, chapter on ground ambulance cost data (GADCS 2022-2023): cost per transport by volume, ownership, staffing model and area; revenue-to-cost ratios; 55% government-owned; Medicare payments 2024
+• MedPAC, "Ambulance Services Payment System" Payment Basics (Oct 2026): 2026 conversion factor $284.56, ALS1 emergency ~$541, $9.15 per mile
+• FAIR Health, "Nearly 60 Percent of Ground Ambulance Rides Were Out of Network in 2022" (Sept 2023): price per mile by state
+• U.S. PIRG Education Fund, "Emergency: The high cost of ambulance surprise bills": ~$450 median surprise bill, $129M a year, ~60% of insured people unprotected by state laws, 1 in 10 insured ER patients arrive by ambulance
+• Gray News, "Federal report aims to end surprise ambulance bills" (Oct 16, 2024): Advisory Committee on Ground Ambulance and Patient Billing recommendations; YouGov poll (23% skipped an ambulance due to cost)
+• HealthInsurance.org, "No Surprises Act" glossary: air ambulances covered, ground ambulances not
+
+Illustrations and short animations are AI-assisted (Google Flow). Voice is AI-generated. Script and research by Price Decoded.
+
+This video is for education only and is not financial, legal or medical advice. In an emergency, call 911.
+
+#healthcare #personalfinance #ambulance
+
+=== TAGS ===
+ambulance bill, ambulance cost, why are ambulances so expensive, surprise billing, no surprises act, ground ambulance, out of network, medical bills, healthcare costs, health insurance explained, personal finance, economics explained, price decoded
+
+=== SETTINGS ===
+Audience: No, it's not made for kids
+Category: Education (27)
+Language: English (United States)
+Altered or synthetic content: No (stylized editorial illustrations)
+Publish: Price Decoded long slot (Mon / Thu 21:00 Asia/Qyzylorda)
+Pinned comment: "Have you ever gotten an ambulance bill? 🚑 How much was it?"

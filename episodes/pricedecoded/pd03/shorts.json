@@ -1,0 +1,6 @@
+[
+ {"name":"pd03_short1_plane","beats":"0-3 (plane $445 vs ambulance $1,093)","start":null,"dur":null,"top1":"AMBULANCE > PLANE","top2":"WHY?!","cta":"Full video on Price Decoded","style":"pricedecoded","title":"Why an Ambulance Costs More Than a Flight"},
+ {"name":"pd03_short2_waiting","beats":"13-17 (readiness: $2,878 vs $918)","start":null,"dur":null,"top1":"YOU PAY FOR","top2":"THE WAITING","cta":"Full video on Price Decoded","style":"pricedecoded","title":"Your Ambulance Bill Is Mostly Waiting"},
+ {"name":"pd03_short3_loophole","beats":"36-38 (air covered, ground not; 22 states)","start":null,"dur":null,"top1":"THE AMBULANCE","top2":"LOOPHOLE","cta":"Full video on Price Decoded","style":"pricedecoded","title":"The No Surprises Act Skipped Ambulances"},
+ {"name":"pd03_short4_bill","beats":"49-50 (what to do with a big ambulance bill)","start":null,"dur":null,"top1":"GOT AN AMBULANCE","top2":"BILL?","cta":"Full video on Price Decoded","style":"pricedecoded","title":"Got an Ambulance Bill? Do This First"}
+]
