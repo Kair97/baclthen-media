@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T14:25:00+05:00",
+ "updated": "2026-10-28T14:22:00+05:00",
  "metricool_blog_id_backthen": "7680884",
  "items": [
   {
@@ -117,15 +117,18 @@
    "channel": "backthen",
    "kind": "long",
    "title": "How Did Vikings Actually Survive Winter?",
-   "status": "assets",
+   "status": "scheduled",
    "files": "episodes/backthen/bt03/ (beats.py, metadata.txt, shorts.json)",
-   "next": "render (cloud)",
-   "target_date": "2026-10-30T21:00:00+05:00",
+   "next": "Shorts bt03-s1..s4 30.10-02.11",
    "tts": "done 27.10: episodes/backthen/bt03/out/vo_00..53.wav, voice 8:54 total (render copies out/ → tts.py skips)",
    "flow_prompts": "episodes/backthen/bt03/flow_prompts.md (ready-to-paste Flow messages)",
    "images": "done 28.10: episodes/backthen/bt03/img/ (40 jpg, s01-s39 + s15b)",
    "flow_project": "https://flow.google.com/u/1/project/a02ad2de-0970-465c-a9a0-1fe73b61f755",
-   "clips": "done 28.10: episodes/backthen/bt03/vid/v01-v04.mp4"
+   "clips": "done 28.10: episodes/backthen/bt03/vid/v01-v04.mp4",
+   "date": "2026-10-30T21:00:00+05:00",
+   "metricool_id": 408714754,
+   "duration": "8:45",
+   "thumbnails": "episodes/backthen/bt03/thumbnail.jpg (A) / thumbnail_B.jpg; custom thumbnails need phone verification"
   },
   {
    "id": "pd03",
