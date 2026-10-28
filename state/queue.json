@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T13:45:00+05:00",
+ "updated": "2026-10-28T14:00:00+05:00",
  "metricool_blog_id_backthen": "7680884",
  "items": [
   {
@@ -131,12 +131,14 @@
    "channel": "pricedecoded",
    "kind": "long",
    "title": "Why an Ambulance Ride Can Cost More Than a Plane Ticket",
-   "status": "scripted",
+   "status": "assets",
    "files": "episodes/pricedecoded/pd03/ (beats.py, metadata.txt, shorts.json)",
-   "next": "Flow assets on laptop: 24 images p01-p24 + 4 clips c01-c04 (48 credits)",
+   "next": "4 clips c01-c04 (48 credits) on the next laptop day (29.10); fallback: render with Ken-Burns stills",
    "target_date": "2026-11-02T21:00:00+05:00",
    "tts": "done 27.10: episodes/pricedecoded/pd03/out/vo_00..51.wav, voice 9:53 total",
-   "flow_prompts": "episodes/pricedecoded/pd03/flow_prompts.md (ready-to-paste Flow messages)"
+   "flow_prompts": "episodes/pricedecoded/pd03/flow_prompts.md (ready-to-paste Flow messages)",
+   "images": "done 28.10: episodes/pricedecoded/pd03/img/ (24 jpg p01-p24)",
+   "flow_project": "https://flow.google.com/u/1/project/3f30b39c-2987-41c6-bd96-79bcaa2aad62"
   }
  ],
  "zapier_youtube_connection": {
